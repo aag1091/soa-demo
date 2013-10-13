@@ -5,3 +5,20 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+Post.create(
+  [
+    { title: 'Welcome there', content: 'Hey, welcome to the joosy blog example' },
+    { title: 'Test post', content: 'Nothing there. Really' },
+    { title: 'Welcome there', content: 'Hey, welcome to the joosy blog example' },
+    { title: 'Test post', content: 'Nothing there. Really' },
+    { title: 'Welcome there', content: 'Hey, welcome to the joosy blog example' },
+    { title: 'Test post', content: 'Nothing there. Really' },
+    { title: 'Welcome there', content: 'Hey, welcome to the joosy blog example' },
+    { title: 'Test post', content: 'Nothing there. Really' },
+    { title: 'Welcome there', content: 'Hey, welcome to the joosy blog example' },
+    { title: 'Test post', content: 'Nothing there. Really' },
+    { title: 'Welcome there', content: 'Hey, welcome to the joosy blog example' },
+    { title: 'Test post', content: 'Nothing there. Really' }
+  ]
+)
