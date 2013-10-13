@@ -1,5 +1,17 @@
 <h1>Listing posts</h1>
 
+<br/>
+<br/>
+
+<div id="search">
+  <%= form_tag("/posts", method: "get") do %>
+    <%= text_field_tag 'keyword', '', placeholder: 'Enter your search query here' %>
+  <% end %>
+</div>
+
+<br/>
+<br/>
+
 <table>
   <thead>
     <tr>
